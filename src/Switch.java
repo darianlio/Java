@@ -27,5 +27,17 @@ public class Switch {
 			default:
 				System.out.println("Value was not 1 or 2");
 		}
+		
+		//Challenge
+		char charVal = 'A';
+		switch(charVal) {
+		case 'A':case 'B':case 'C':case 'D': case 'E':
+			System.out.println("was a A, B, C. D. or E");
+			System.out.println("Actual value was " + charVal);
+			break;
+		default:
+			System.out.println("Not found");
+			break;
+		}
 	}
 }
